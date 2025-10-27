@@ -3,27 +3,27 @@ S! WebHack Tutorial Lecture
 
 ## Table of Contents
 Background (OT)
-    + Why study we Web hacking?
-    + Relationship between web hacking and development
++ Why study we Web hacking?
++ Relationship between web hacking and development
 
 1 ~ 2W - Baby-Step (To know web architecture)
-    + What is html,js,css? / simple practice
-        + HTML
-        + Javascript
-        + Cascading Style Sheets
-    + Developing simple ur own web site / simple practice
-        + PHP 
-        + Mysql
-        + Apache
-        + (Linux)
++ What is html,js,css? / simple practice
+    + HTML
+    + Javascript
+    + Cascading Style Sheets
++ Developing simple ur own web site / simple practice
+    + PHP 
+    + Mysql
+    + Apache
+    + (Linux)
 
 3 ~ 4W - Become a newbee hacker (Client-Side)
-    + Easy Client-Side hacking technic
-        + XSS (Cross-Site-Scripting)
-            + What is XSS?
-            + How to find Attack vectors
-            + Takeover victim's cookies(session)
-            + XSS bypass technic
++ Easy Client-Side hacking technic
+    + XSS (Cross-Site-Scripting)
+        + What is XSS?
+        + How to find Attack vectors
+        + Takeover victim's cookies(session)
+        + XSS bypass technic
                 + replace string bypass
                 + string detection bypass
                 + input value bypass
