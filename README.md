@@ -30,7 +30,7 @@ S! WebHack Tutorial Lecture
         + What is XSS?
         + How to find Attack vectors
         + Takeover victim's cookies(session)
-        + XSS bypass technic
+        + XSS bypass technic    
             + replace string bypass
             + string detection bypass
             + input value bypass
