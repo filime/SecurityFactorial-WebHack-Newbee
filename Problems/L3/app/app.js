@@ -50,7 +50,7 @@ app.get('/echo',(req,res)=>{
     if(lv == 5)
         return tools.echo_r(req,res,'<input type="hidden" value="'+echo+'">');
 
-    return res.sendFile("/xss/lv".concat(lv).concat(".html").concat("?"+echo));
+    return res.sendFile(__dirname+"/xss/lv".concat(lv).concat(".html"));
 
 
 })
