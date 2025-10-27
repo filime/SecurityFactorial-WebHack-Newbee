@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%-include('header')%>
+    <h1>SOUND TEST</h1>
+    <div class="card w-50 position-absolute top-50 start-50 translate-middle">
+        <div class="card-body input-box">
+            <form action="/echo" method="POST">
+                <input type="text" placeholder="Report" name="echo" id="echo" required class="form-control">
+                <input type="submit" value="report" class="float-end mt-1 btn btn-dark" id="submit">
+            </form>  
+        </div>
+    </div>
+    
+</body>
+</html>
+

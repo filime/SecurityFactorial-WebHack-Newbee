@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <%-include('header')%>
+    
+    <div class="container">
+        <h1>just bot</h1>
+        <div class="card-body input-box">
+            <form action="/bot" method="POST" id="ff">
+
+                <input type="text" placeholder="?echo......&lv......" name="report" required class="form-control">
+                <button type="submit" onclick="document.querySelector('#ff').submit()">Submit</button>
+            </form> 
+        </div>
+    </div>
+    
+</body>
+</html>
+

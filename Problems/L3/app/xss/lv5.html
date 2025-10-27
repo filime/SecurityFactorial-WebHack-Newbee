@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="xss"></div>
+    
+    <script>
+        // https://parksay-dev.tistory.com/100
+
+        var WAF = ['>']
+
+        window.addEventListener("DOMContentLoaded",()=>{
+            let url = new URL(location);
+            if(url.searchParams.has("echo")){
+                var echos = url.searchParams.get("echo")
+                for(let i of WAF){
+                    if(echos.indexOf(i) >= 0)
+                        return xss.innerText = "WAF Detected!";
+                }
+                xss.innerHTML = `<input type="hidden" value="${echos}">`;
+            }
+        })
+    </script>
+</body>
+</html>
