@@ -28,13 +28,13 @@ S! WebHack Tutorial Lecture
             + string detection bypass
             + input value bypass
             + hidden tag bypass
-        + CSRF (Client-Side Request Forgery)
-            + What is CSRF?
-            + practice
-        + XS-leak (Cross-Site leak or search)
-            + What is XS-leak?
-            + XS-leak with status code
-            + XS-leak with ... # as you want
+    + CSRF (Client-Side Request Forgery)
+        + What is CSRF?
+        + practice
+    + XS-leak (Cross-Site leak or search)
+        + What is XS-leak?
+        + XS-leak with status code
+        + XS-leak with ... # as you want
 
 5 ~ 6W - Become a newbee hacker (Server-Side)
 + Easy Server-Side hacking technic
