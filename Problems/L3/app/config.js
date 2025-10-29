@@ -52,7 +52,7 @@ const bot = async (report, flag,port) => {
     ]
 
     const browser = await puppeteer.launch({
-        headless: false,
+        headless: true,
         //executablePath: "/usr/bin/google-chrome-stable",
         args: ["--no-sandbox"],
       });
@@ -70,11 +70,9 @@ const bot = async (report, flag,port) => {
     return 1;
     }catch(e){
         console.log("BOT ERORR");
+        console.log(e);
         throw "error";
-    } finally {
-    await page.close();
-    await browser.close();
-    }
+    } 
 }
 
 const echo_r = (req,res,str_e)=>{
