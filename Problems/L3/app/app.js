@@ -79,23 +79,20 @@ app.post('/bot', (req,res)=>{
     switch(lv){
 
         case 1:
-            FLAG = "WHD{Lv1_clear!_y0u_ge$_4xp}";
+            FLAG = "Tutorial{38b06c18-764f-4d83-a66b-daf90b70cd50}";
             break;
 
         case 2:
-            FLAG = "WHD{Lv2_clear!_y0u_ge$_10xp}";
+            FLAG = "Tutorial{3d7fc8d3-648f-4d66-825d-7450e17b8625}";
             break;
         case 3:
-            FLAG = "WHD{Lv3_clear!_Congrats!_Leve1_up!}";
+            FLAG = "Tutorial{39cc8a26-d99f-44da-a802-ad5f8466b481}";
             break;
         case 4:
-            FLAG = "WHD{Lv4_clear!_u_ge$_12xp}";
+            FLAG = "Tutorial{10e26d08-a085-4521-aaa2-0071116b65de}";
             break;
         case 5:
-            FLAG = "WHD{Lv5_clear!_u_ge$_15xp}";
-            break;
-        case 6:
-            FLAG = "WHD{Lv6_clear!_CSP_Bypassed!_u_ge$_30xp}";
+            FLAG = "Tutorial{bbc226f7-0aa7-4752-9e03-50bebc637e6a}";
             break;
         default:
             FLAG = "None";
