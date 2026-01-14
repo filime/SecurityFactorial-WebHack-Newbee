@@ -46,7 +46,7 @@ Contact : filime
         + XS-leak with status code
         + XS-leak with ... # as you want
 
-5 ~ 6W - Become a newbee hacker (Server-Side)
+### 5 ~ 6W - Become a newbee hacker (Server-Side)
 + Easy Server-Side hacking technic
     + L6 - SQL Injection (Mysql) - with LoS
         + What is SQLi?
@@ -63,7 +63,7 @@ Contact : filime
         + Prob2 - CVE-2022-29217
             + Yes poc code(well-known cve), Solve to analysis how to use poc code - REF: https://www.vicarius.io/vsociety/posts/risky-algorithms-algorithm-confusion-in-pyjwt-cve-2022-29217
 
-7 ~ 8W - Become a verified S! Hacker
+### 7 ~ 8W - Become a verified S! Hacker
 + Solving filime's dungeon
     + TOW - Server-Side
     + WHD - Client-Side
