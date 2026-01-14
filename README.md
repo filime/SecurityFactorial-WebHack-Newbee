@@ -1,5 +1,8 @@
-S! WebHack Tutorial Lecture
-===================
+# S! WebHack Tutorial Lecture
+## TL;DR
+This lecture is made for SecurityFactorial by filime.
+Author : filime (JeongHo Kim, Sejong Univ)
+Contact : filime
 
 ## Table of Contents
 ### Background (OT)
@@ -55,8 +58,10 @@ S! WebHack Tutorial Lecture
         + The sequence of $_(GET,POST,COOKIE,REQUST)
         + Difference between header and exit
     + L8 - Analysis module or CVE
-        + Prob1 - python sha256
-        + Prob2 - under construction
+        + Prob1 - CVE-2025-6985
+            + No poc code, Solve to analysis github commit and code - REF: https://github.com/lxml/lxml/commit/89e7aad6e7ff9ecd88678ff25f885988b184b26e / https://dreamhack.io/wargame/challenges/1831
+        + Prob2 - CVE-2022-29217
+            + Yes poc code(well-known cve), Solve to analysis how to use poc code - REF: https://www.vicarius.io/vsociety/posts/risky-algorithms-algorithm-confusion-in-pyjwt-cve-2022-29217
 
 7 ~ 8W - Become a verified S! Hacker
 + Solving filime's dungeon
